@@ -1,0 +1,11 @@
+document:
+  name: Guida metriche software applicativo
+  description: |
+    Guida tecnica all’uso di metriche per il 
+    software applicativo sviluppato per 
+    conto delle pubbliche amministrazioni
+  tags:
+    - metriche
+    - software
+    - applicazioni
+    - pubbliche amministrazioni
