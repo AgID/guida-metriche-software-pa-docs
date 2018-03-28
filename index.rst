@@ -328,8 +328,6 @@ Le attività del Tavolo di lavoro si sono articolate nelle seguenti fasi:
 
 5) redazione del testo finale del documento.
 
-La guida tecnica è stata approvata dall’Agenzia per l’Italia Digitale con determinazione n. xx del xxx.
-
 Analogamente ad altri documenti di natura tecnica pubblicati in passato dall’Agenzia, la presente guida tecnica sarà aggiornata in rapporto all’evoluzione delle tecnologie ICT e del contesto normativo/organizzativo delle pubbliche amministrazioni italiane.
 
 2.1 Ricognizione a livello internazionale
@@ -1014,7 +1012,7 @@ Riguardo all’ultimo fattore (CR), il documento stabilisce le seguenti regole d
 
 Per passare dalla misura funzionale in UFP alla MFC, il documento di Lombardia Informatica propone la formula:
 
-**MFC = Σ\ :sub:`i` (UFP x SAC\ :sub:`riuso` x SAC\ :sub:`replica` x SAC\ :sub:`CR`)\ :sub:`i`**
+MFC = Σ :sub:`i`\(UFP x SAC :sub:`riuso` x SAC :sub:`replica` x SAC :sub:`CR`) :sub:`i`
 
 Dove:
 
