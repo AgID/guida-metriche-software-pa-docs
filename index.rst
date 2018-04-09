@@ -4,6 +4,7 @@ Guida tecnica all’uso di metriche per il software applicativo sviluppato per c
 
 .. toctree::
    :caption: Indice dei contenuti
+   :maxdepth: 2
 
    istruzioni-per-la-consultazione.rst
    documento-in-consultazione.rst

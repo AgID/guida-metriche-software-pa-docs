@@ -2,6 +2,7 @@ Documento in consultazione
 ==========================
 
 .. toctree::
+   :maxdepth: 2
 
    documento-in-consultazione/premessa.rst
    documento-in-consultazione/il-tavolo-di-lavoro.rst
