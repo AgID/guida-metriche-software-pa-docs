@@ -856,3 +856,28 @@ In generale, gli attuali schemi contrattuali sembrano troppo rigidi. Si sono ril
 
 Una maggiore flessibilità dei contratti eviterebbe applicazioni incorrette o negoziazioni successive tra amministrazione e fornitore per consentire la gestione del progetto nell’ambito di una “gabbia” contrattuale troppo stretta.
 
+.. [4]
+   Sostituito dalla dott.ssa Laura Tomassini come da comunicazione del Ministero della Giustizia del 1 febbraio 2018.
+
+.. [5]
+   Sostituito a partire dal 12 giugno 2017 dal dott. Giampiero Mutinati, dietro richiesta della medesima società SQS.
+
+.. [6]
+   Roberto Meli rappresenta anche il punto di vista dell’associazione Assintel e dell'associazione SiFPA.
+
+.. [7]
+   Nella presente guida tecnica, con “valore” di un software deve intendersi il valore di mercato del software stesso, non il suo valore in assoluto (che è un concetto diverso, legato ad altri parametri, ad esempio l’importanza che il software riveste per i propri utenti).
+
+.. [8]
+   Tra i vari standard disponibili, si è scelto di porre particolare attenzione agli standard ISO, sia per la loro oggettiva rilevanza e diffusione non solo in ambito ICT, sia in omogeneità con le precedenti linee guida AgID (si ricorda che il presente lavoro si declina come aggiornamento delle linee guida pregresse).
+
+.. [9]
+   http://www.dpo.it/eqfp/
+
+.. [10]
+   Il documento è stato acquisito da AgID nell’ambito dell’istruttoria di un parere, reso ai sensi dell’art. 14bis del CAD, su una gara bandita da Consip per conto della RGS.
+
+.. |image0| image:: media/image1.png
+   :width: 7.07986in
+   :height: 3.30417in
+

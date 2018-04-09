@@ -265,3 +265,13 @@ Vale la pena segnalare che le amministrazioni, oggi come in passato, appaiono di
 
 La presente guida tecnica, in omogeneità con le precedenti pubblicazioni dell’AgID di questo tipo, non hanno pretesa di completezza documentale, esaustività e massimo rigore sulla tematica in esame. Al contrario, esse rappresentano una sintesi di prima fruibilità delle asserzioni della letteratura tecnica in materia. Esse sono indirizzate a una categoria ben definita di lettori (dirigenti e funzionari della pubblica amministrazione), pertanto sono focalizzate sulle esigenze e sul contesto pubblico; perseguendo anche finalità didattiche, il livello della trattazione è stato reso, ove possibile, comprensibile al più ampio pubblico, soprattutto tramite una serie di esempi, indicazioni operative e suggerimenti pratici. Ove il lettore voglia andare più in dettaglio e/o cerchi una narrazione tecnica più rigorosa, verranno forniti riferimenti a testi o siti web su cui approfondire.
 
+.. [1]
+   È rappresentata la situazione al febbraio 2018.
+
+.. [2]
+   Appalto Specifico.
+
+.. [3]
+   L’art. 95 comma 10-bis del Codice degli appalti recita: “\ \ *La stazione appaltante, al fine di assicurare l’effettiva individuazione del miglior rapporto qualità/prezzo, valorizza gli elementi qualitativi dell’offerta e individua criteri tali da garantire un confronto concorrenziale effettivo sui profili tecnici. A tal fine la stazione appaltante stabilisce un tetto massimo per il punteggio economico entro il limite del 30 per cento*\ \ ” (disposizione introdotta dal D.Lgs. 56/2017 in vigore dal 20/5/2017); dunque al massimo il prezzo conta per il 30%.
+
+

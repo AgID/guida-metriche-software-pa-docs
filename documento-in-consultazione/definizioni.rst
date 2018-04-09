@@ -304,3 +304,19 @@ Si ritiene che questa separazione concettuale possa aiutare a risolvere alcune d
 
 Se così non è, oppure se la differenza tra valore e costo di produzione è insufficiente come margine per il fornitore, siamo in presenza di un’anomalia. Si noti che situazioni di questo tipo si verificano talvolta nei progetti delle pubbliche amministrazioni, ad esempio nell’ambito di grandi contratti poliennali che includono numerosi progetti: in questi casi, costi superiori ai ricavi in un singolo progetto devono trovare compensazione negli altri progetti del contratto o in voci separate dello stesso, ma – come detto - possono anche motivare il fornitore a ottimizzare i suoi processi interni per comprimere i costi e riportarsi in una situazione di redditività.
 
+.. [11]
+   Con l’obiettivo, già citato, di migliorare la fruibilità del documento, tutti i termini sono stati tradotti in italiano. Tuttavia, per qualsiasi contenzioso fa fede la norma internazionale, che ufficialmente è in lingua inglese.
+
+.. [12]
+   Si fa qui riferimento al ciclo di vita tradizionale “waterfall” di un software. Le definizioni sono comunque applicabili, con opportune modifiche, ad altri cicli di vita (es. iterativo/incrementale).
+
+.. [13]
+   In questa modellizzazione non si considerano le attività di esercizio di un’applicazione software (OPS) in quanto si ritengono di natura non progettuale ma di servizio.
+
+.. |image1| image:: media/image2.png
+   :width: 4.44491in
+   :height: 3.14384in
+.. |image2| image:: media/image3.png
+   :width: 4.40651in
+   :height: 5.08835in
+

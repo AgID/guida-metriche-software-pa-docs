@@ -1400,3 +1400,40 @@ Per esempi operativi di applicazioni delle metriche CISQ-OMG, si rimanda al capi
 
 Riguardo a queste metriche e al loro impiego si segnala la presenza di linee guida e documenti metodologici liberamente disponibili sul sito del CISQ (`www.it-cisq.org <http://www.it-cisq.org>`__).
 
+.. [15]
+   Per completezza d’informazione, si segnala che IFPUG non ha validato la correttezza e validità degli algoritmi proposti da OMG. Al fine di porre a verifica la replicabilità delle esperienze di OMG, AgID ritiene utile condurre, nel prossimo futuro, sperimentazioni su parchi applicativi della pubblica amministrazione italiana, rendendo poi pubblici i risultati.
+
+.. [16]
+   Come detto, tale norma è stata sostituita dalla ISO/IEC 25010:2011.
+
+.. [17]
+   In questo studio viene usato il termine “metrica”, ma le entità esaminate possono essere declinate anche come indicatori.
+
+.. [18]
+   In realtà la norma ISO parla più genericamente di “sistema”. Nel contesto di questo studio, come già detto, si ritiene opportuno focalizzare sulla valutazione/misurazione di software applicativo.
+
+.. [19]
+   In realtà la norma ISO parla più genericamente di “sistema”. Nel contesto di questo studio, come già detto, ci si focalizza sulla valutazione/misurazione di software applicativo.
+
+.. [20]
+   http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf
+
+.. [21]
+   https://netforum.avectra.com/eweb/Shopping/Shopping.aspx?Site=ifpug&WebCode=Shopping&cart=0
+
+.. [22]
+   Si è qui deciso di mantenere la terminologia originaria CISQ, benché le definizioni CISQ siano mutuate dalle corrispondenti definizioni ISO 25010.
+
+.. [23]
+   Per maggiori dettagli su queste caratteristiche, si rinvia al sito `http://it-cisq.org/standards/ <http://it-cisq.org/standards/>`__
+
+.. [24]
+   (1.200 \* 1,4 + 650 \* 2,2 + 1.720 \* 1,7 + 2.400 \* 3,6 + 880 \* 0,9) / 6850 = 2,26
+
+.. [25]
+   (1.200 \* 3,3 + 650 \* 2,6 + 1.720 \* 3 + 2.400 \* 3,9 + 880 \* 2) / 6850 = 3,20
+
+.. |image3| image:: media/image4.png
+   :width: 6.24306in
+   :height: 1.65972in
+
