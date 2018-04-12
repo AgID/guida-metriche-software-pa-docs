@@ -274,4 +274,6 @@ La presente guida tecnica, in omogeneità con le precedenti pubblicazioni dell�
 .. [3]
    L’art. 95 comma 10-bis del Codice degli appalti recita: “\ \ *La stazione appaltante, al fine di assicurare l’effettiva individuazione del miglior rapporto qualità/prezzo, valorizza gli elementi qualitativi dell’offerta e individua criteri tali da garantire un confronto concorrenziale effettivo sui profili tecnici. A tal fine la stazione appaltante stabilisce un tetto massimo per il punteggio economico entro il limite del 30 per cento*\ \ ” (disposizione introdotta dal D.Lgs. 56/2017 in vigore dal 20/5/2017); dunque al massimo il prezzo conta per il 30%.
 
+.. discourse::
+   :topic_identifier: 2885
 

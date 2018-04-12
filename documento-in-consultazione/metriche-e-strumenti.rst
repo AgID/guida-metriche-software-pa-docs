@@ -1437,3 +1437,5 @@ Riguardo a queste metriche e al loro impiego si segnala la presenza di linee gui
    :width: 6.24306in
    :height: 1.65972in
 
+.. discourse::
+   :topic_identifier: 2888

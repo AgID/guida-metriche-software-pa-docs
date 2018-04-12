@@ -881,3 +881,6 @@ Una maggiore flessibilità dei contratti eviterebbe applicazioni incorrette o ne
    :width: 7.07986in
    :height: 3.30417in
 
+.. discourse::
+   :topic_identifier: 2886
+
