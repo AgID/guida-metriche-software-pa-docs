@@ -9,6 +9,7 @@ settings_doc_version = 'version: latest'
 settings_doc_release = 'version: latest'
 settings_basename = 'guida-metriche-software-pa-docs'
 settings_file_name = 'guida-metriche-software-pa-docs'
+settings_discourse_url = 'https://forum.italia.it/'
 
 # -- No need to change below here
 
@@ -49,6 +50,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'docs-italia-theme',
+    'sphinxcontrib.discourse'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -73,7 +75,7 @@ project = settings_project_name
 copyright = settings_copyright_copyleft
 
 # URL of Discourse instance used by sphinxcontrib.discourse extension
-# discourse_url = settings_discourse_url
+discourse_url = settings_discourse_url
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -123,6 +125,7 @@ html_theme_options = {
     # This option can be used with docs-italia-theme to customise how the versions "badge" is shown:
     # 'False': default (alabaster) badge | 'True': custom (italia) badge
     'custom_versions_badge': 'True',
+    'collapse_navigation': 'True',
 }
 # -- ReadTheDoc requirements and local template generation---------------------
 
