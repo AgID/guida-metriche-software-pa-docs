@@ -4,7 +4,7 @@ Guida tecnica all’uso di metriche per il software applicativo sviluppato per c
 
 .. admonition:: Consultazione pubblica
 
-   La consultazione pubblica per questo documento è attiva dal 12 aprile al'11 maggio 2018.
+   La consultazione pubblica per questo documento è attiva dal 12 aprile all'11 maggio 2018.
 
 
 Questo documento raccoglie il testo della *Guida tecnica all’uso di metriche per il software 
