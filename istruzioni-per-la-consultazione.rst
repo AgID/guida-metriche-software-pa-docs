@@ -5,8 +5,7 @@ Istruzioni per la consultazione pubblica
 Informazioni sulla consultazione
 ================================
 
--  **Durata della consultazione:** dal xx aprile 2018 al yy maggio 2018
-   (da conteggiare 30 giorni a partire dalla data di pubblicazione)
+-  **Durata della consultazione:** dal 12 aprile 2018 all'11 maggio 2018
 
 -  **Settore:** ICT
 
@@ -32,22 +31,18 @@ interessati al tema.
 Obiettivo della consultazione
 =============================
 
-Il documento rappresenta l’aggiornamento delle linee guida sul tema
-dello sviluppo di software applicativo, pubblicate dall’allora CNIPA
-(link:
-http://www.agid.gov.it/agenzia/valutazione-e-monitoraggio/manuali-ict)
+Il documento rappresenta l’aggiornamento delle `linee guida sul tema dello sviluppo di software applicativo <http://www.agid.gov.it/agenzia/valutazione-e-monitoraggio/manuali-ict>`_, pubblicate dall’allora CNIPA
 sulla qualità dei beni e servizi ICT per le acquisizioni della Pubblica
 amministrazione.
 
 Il documento è una “Guida tecnica” e si differenzia dalle linee guida
 contenenti le regole tecniche e di indirizzo per l’attuazione del Codice
-dell’Amministrazione Digitale ai sensi dell’art. 71 del Codice stesso
-(link)
+dell’Amministrazione Digitale ai sensi dell’`art. 71 <http://cad.readthedocs.io/it/v2017-12-13/_rst/capo7_art71.html>`_ del Codice stesso.
 
 L’esigenza di aggiornare le precedenti linee guida nasce:
 
 -  dalle novità introdotte, anche sotto l’aspetto strategico, dal
-   "`Piano Triennale per l’informatica nella Pubblica amministrazione
+   `"Piano Triennale per l’informatica nella Pubblica amministrazione
    2017- 2019" <http://pianotriennale-ict.readthedocs.io/it/latest/>`__;
 
 -  dal tempo trascorso dall’ultima revisione del documento, in relazione
@@ -76,4 +71,4 @@ saranno immediatamente visibili anche in \ `Forum
 Italia <https://forum.italia.it/>`__, dove sarà possibile continuare la
 discussione.
 
-È possibile inviare i propri commenti fino al yy maggio 2018.
+È possibile inviare i propri commenti fino all'11 maggio 2018.
