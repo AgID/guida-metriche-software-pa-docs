@@ -95,7 +95,7 @@ Sarebbe auspicabile che una simile raccolta di dati progettuali (misure a consun
 
 *Soluzioni proposte (2)*
 
-Come seconda soluzione, applicabile a casi ove la documentazione sia di buon livello e sufficiente alle necessità di un conteggio formale, si potrebbe misurare in PF la dimensione funzionale delle applicazioni che costituiscono il portafoglio e integrare tale conteggio con SNAP (metodo che, come detto, tiene conto delle caratteristiche non funzionali di un’applicazione). In questo caso la dimensione complessiva del portafoglio applicativo si ricondurrebbe a due numeri, rispettivamente:
+Come seconda soluzione, applicabile a casi ove la documentazione sia di livello sufficiente alle necessità di un conteggio formale secondo una delle metodiche di misura indicate precedentemente, si potrebbe misurare in PF la dimensione funzionale delle applicazioni che costituiscono il portafoglio e integrare tale conteggio con SNAP (metodo che, come detto, tiene conto di alcune delle caratteristiche non funzionali di un’applicazione). In questo caso la dimensione complessiva del portafoglio applicativo si ricondurrebbe a due numeri, rispettivamente:
 
 -  la somma dei PF delle singole applicazioni costituenti il portafoglio;
 
@@ -103,7 +103,11 @@ Come seconda soluzione, applicabile a casi ove la documentazione sia di buon liv
 
 Il metodo SNAP consente infatti di sommare tra loro i punti ottenuti sui diversi elementi previsti dal metodo, correlati alle caratteristiche non funzionali. Ciò può costituire un vantaggio ove obiettivo dell’assessment sia appunto ottenere una valutazione unica e complessiva del portafoglio applicativo. Viceversa, se l’amministrazione ritiene rilevanti solo alcune delle caratteristiche non funzionali (ad esempio la sola sicurezza, oppure la sicurezza e la manutenibilità), si potrebbe pensare a un uso parziale del metodo, conteggiando solo alcune categorie o sotto-categorie previste da SNAP.
 
-Anche questa soluzione, tuttavia, risente delle medesime incertezze della precedente riguardo alla monetizzazione finale della misura, in quanto non sono a oggi disponibili riferimenti condivisi su un “valore di mercato” dello SNAP Point.
+Come scritto al par. 4.2 il metodo di misura Simple Function Point costituisce un buon compromesso tra semplicità di computazione e precisione per valutazioni patrimoniali necessitando dell'individuazione delle sole transazioni e archivi logici dell'applicazione.
+
+Qualora la documentazione di livello logico necessaria ad applicare un metodo di misura funzionale standard non sia disponibile, è possibile adottare una tecnica di misura approssimata che fornisce risposte appropriate quando la precisione del risultato è meno importante della tempestività ma si desidera successivamente iniziare un percorso di mantenimento delle misure dal punto di vista logico e con coperture crescenti mano a mano che gli interventi di evoluzione del patrimonio si succedono. Il vantaggio è di derivare una rappresentazione, pur grossolana, dell'applicazione da un punto di vista "business" e non "guidato" dalla implementazione tecnica.
+
+Anche questa soluzione, tuttavia, risente delle medesime incertezze della precedente riguardo alla monetizzazione finale della misura per la parte non funzionale, in quanto non sono a oggi disponibili riferimenti condivisi su un “valore di mercato” dello SNAP Point.
 
 *Soluzioni proposte (3)*
 
