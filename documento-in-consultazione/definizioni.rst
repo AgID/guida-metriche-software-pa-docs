@@ -188,7 +188,7 @@ Tabella 9: esempio di requisito di qualità
 +------------------+-------------------------------------------------------------------------------------------------------+
 | **ID Requisito** | **Descrizione**                                                                                       |
 +==================+=======================================================================================================+
-| RQ1              | Il tempo di risposta del sistema all'inserimento della password utente deve essere inferiore a 10 sec |
+| RQ1              | Il tempo di risposta del sistema (90° pecentile) all'inserimento della password utente deve essere inferiore a 10 sec. Ovvero, il 90 percento delle richieste di inserimento password devono rispondere all'utente entro 10 secondi. |
 +------------------+-------------------------------------------------------------------------------------------------------+
 
 3.1.4 Requisiti di sistema/ambiente
