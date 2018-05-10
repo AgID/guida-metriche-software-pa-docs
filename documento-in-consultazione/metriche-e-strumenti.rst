@@ -134,7 +134,7 @@ In generale, occorre tenere presente che il tempo di risposta di un sistema info
 
 Analogamente, occorre tenere presente che il tempo di risposta/completamento dipende dalla tipologia di richiesta/transazione che viene elaborata. Gli indicatori proposti dalla ISO 25023 propongono infatti valori medi, calcolati effettuando *n* misure diverse, una per ciascuna delle *n* tipologie di richiesta/transazione rilevanti. Sono comunque ipotizzabili casi in cui interessa misurare separatamente i tempi di risposta/completamento per tipologie di richiesta/transazione differenti, e non mediare il risultato di tali misure.
 
-Si noti che in quasi tutte le definizioni di metriche, la ISO 25023 fa uso di valori medi. Dal punto di vista statistico, nella maggioranza dei contesti si ritiene più rappresentativo il valore mediano. Questa considerazione si applica anche ai paragrafi che seguono.
+Si noti che in quasi tutte le definizioni di metriche, la ISO 25023 fa uso di valori medi. Dal punto di vista statistico e come indicato dalla ISO in alternativa alla metrica PTb-2-G, nella maggioranza dei contesti si ritiene più rappresentativo utilizzare un valore n-esimo percentile rispetto al tempo atteso da requisiti (ad esempio "PTb-2-G atteso a 5 secondi per il 95° percentile", ovvero si attende che il 95% delle risposte abbiano un tempo di risposta entro 5 secondi). Questa considerazione si applica anche ai paragrafi che seguono.
 
 *Quando è opportuno utilizzare queste metriche?*
 
@@ -142,16 +142,16 @@ Per ridurre i tempi di risposta di un sistema, spesso è più semplice e meno on
 
 Esistono però casi in cui non si può intervenire sui fattori F\ :sub:`eff`, ad esempio in sviluppi applicativi ove la piattaforma elaborativa e la connettività disponibile rappresentano vincoli imprescindibili di progetto. In questi casi è opportuno definire requisiti di efficienza, nelle condizioni al contorno specificate, per il software da realizzare. In tali requisiti il cliente dovrà fissare i tempi di risposta attesi, specificando anche come s’intende verificare, a posteriori, il rispetto di detti requisiti.
 
-Un altro caso ove queste metriche appaiono utili sono i progetti di ottimizzazione di un software già esistente (interventi di manutenzione migliorativa). In questi casi, si suggerisce di misurare gli indicatori (ad esempio PTb-1-G o PTb-3-G) prima dell’intervento e di formalizzare il risultato atteso sotto forma di valore che si vuole ottenere per tali indicatori. Al termine dell’intervento, si effettueranno test (si suggerisce di esplicitare contrattualmente come tali test verranno svolti) e si misurerà l’efficienza del software modificato. Si potrà anche legare contrattualmente parte della remunerazione del fornitore alla misura del miglioramento ottenuto (valore finale dell’indicatore meno valore iniziale dello stesso): si ritiene che ciò possa garantire maggiormente il ritorno dell’investimento rispetto al modello attuale che prevede, di prassi, di retribuire interventi di manutenzione migliorativa sulla base delle giornate persona erogate.
+Un altro caso ove queste metriche appaiono utili sono i progetti di ottimizzazione di un software già esistente (interventi di manutenzione migliorativa). In questi casi, si suggerisce di misurare gli indicatori (ad esempio PTb-1-G, PTb-2-G o PTb-3-G) prima dell’intervento e di formalizzare il risultato atteso sotto forma di valore che si vuole ottenere per tali indicatori. Al termine dell’intervento, si effettueranno test (si suggerisce di esplicitare contrattualmente come tali test verranno svolti) e si misurerà l’efficienza del software modificato. Si potrà anche legare contrattualmente parte della remunerazione del fornitore alla misura del miglioramento ottenuto (valore finale dell’indicatore meno valore iniziale dello stesso): si ritiene che ciò possa garantire maggiormente il ritorno dell’investimento rispetto al modello attuale che prevede, di prassi, di retribuire interventi di manutenzione migliorativa sulla base delle giornate persona erogate.
 
 Sembra utile segnalare, su questo argomento, che esistono strumenti automatici per la conduzione di test prestazionali e di carico.
 
-Infine, è evidente che questi indicatori sono adatti, in termini ISO, a misure di qualità esterna. Ove si voglia invece compiere misure di qualità interna, si deve ricorrere a metodi di analisi statica del codice sorgente del software da valutare. Sono disponibili sul mercato numerose tecniche e strumenti automatici che compiono questo lavoro, in generale verificando il rispetto, da parte del codice sorgente, di vincoli e buone pratiche di programmazione legate all’efficienza.
+Infine, come indicato dalla ISO 25023, gli indicatori per “tempi di risposta” sono utili a misurare sia la qualità esterna sia interna.
 
 4.4.1.2 Metriche per “consumo di risorse”
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Per la seconda delle tre sottocaratteristiche, la ISO 25023 propone 4 metriche, pensate per misurare la quantità di risorse (processore, memoria, I/O, banda) utilizzate da un software nell’erogazione delle sue funzionalità.
+Per la seconda delle tre sottocaratteristiche, la ISO 25023 propone 4 metriche di qualità esterna, pensate per misurare la quantità di risorse (processore, memoria, I/O, banda) utilizzate da un software nell’erogazione delle sue funzionalità.
 
 Tabella 13: metriche per consumo di risorse
 
@@ -162,9 +162,9 @@ Tabella 13: metriche per consumo di risorse
 +---------+--------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 | PRu-2-G | Consumo medio di memoria             | Volume di memoria usato per compiere un’elaborazione in rapporto alla memoria disponibile. |                                                                                                |
 +---------+--------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
-| PRu-3-G | Consumo medio di I/O                 | Tempo medio di dispositivi di I/O utilizzato per compiere un’elaborazione                  |                                                                                                |
+| PRu-3-G | Consumo medio di dispositivi I/O                 | Tempo medio di dispositivi di I/O utilizzato per compiere un’elaborazione                  |                                                                                                |
 +---------+--------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
-| PRu-4-S | Consumo medio di banda               | Banda media utilizzata, in rapporto alla banda disponibile, per compiere un’elaborazione   |                                                                                                |
+| PRu-4-S | Consumo di banda               | Banda utilizzata, in rapporto alla banda disponibile, per compiere un’elaborazione   |                                                                                                |
 +---------+--------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
 *Note*
@@ -206,7 +206,7 @@ Tabella 14: metriche per capacità
 
 *Note*
 
-La definizione dell’indicatore PCa-1-G non è molto chiara. Ci si aspetterebbe un valore medio, calcolato misurando separatamente varie tipologie di transazione. Anche la formula desta perplessità, perché fa supporre che nel periodo di osservazione ci siano più transazioni in esecuzione rispetto a quelle completate, ma il numero di transazioni in esecuzione non appare nella formula stessa. Sarebbe utile qualche esempio, che però la ISO 25023 non riporta. Inoltre, questo indicatore sembra parzialmente sovrapponibile all’indicatore PTb-5-G.
+L’indicatore PCa-1-G intende misurare la quantità di transazioni elaborate dal sistema in un dato periodo di tempo definito (ad esempio "il numero di transazioni/richieste eseguite al secondo"). Questo indicatore differisce dal PTb-5-G in quanto non calcola la media ma la capacità elaborativa in un'intervallo di tempo definito nei requisiti (ad es.: transazioni/secondo, minuto, ora, giorno).
 
 Con riferimento all’indicatore PCa-2-G, si potrebbe andar oltre la definizione statistica. La formula infatti sembra suggerire che il sistema in esame possa accettare un numero massimo di utenti concorrenti diverso in vari istanti di tempo. Ciò capita di frequente con l’approssimarsi della scadenza dell’invio di dati ai sistemi.
 
@@ -216,11 +216,11 @@ Problematiche del genere, però, difficilmente vengono gestite a livello applica
 
 *Quando è opportuno utilizzare queste metriche?*
 
-Per quanto detto, si ritiene che nel contesto di questo studio gli indicatori di capacità abbiano un’importanza residuale. Possono essere utili nei casi particolari in cui le problematiche di accesso concorrente (ove sussistano) debbano essere risolte a livello applicativo. In tali casi, si suggerisce di definire a livello di requisiti il valore atteso per gli indicatori PCa-2-G e PCa-3-S, specificando anche come dovranno essere effettuate le misure in fase di verifica (ad esempio utilizzando strumenti automatici che effettuano test di carico simulando pacchetti anche ingenti di utenti concorrenti).
+Per quanto detto, si ritiene che nel contesto di questo studio gli indicatori di capacità abbiano un’importanza residuale. Possono essere utili nei casi particolari in cui le problematiche di accesso concorrente (ove sussistano) debbano essere risolte a livello applicativo. In tali casi, si suggerisce di definire a livello di requisiti l'unità temporale per l'indicatore PCa-1-G e il valore atteso per gli indicatori PCa-2-G e PCa-3-S, specificando anche come dovranno essere effettuate le misure in fase di verifica (ad esempio utilizzando strumenti automatici che effettuano test di carico simulando pacchetti anche ingenti di utenti concorrenti).
 
 Si ritiene tuttavia che scenari di questo tipo, diffusi in passato, siano superati nelle architetture attuali, e di certo saranno resi ancora più obsoleti andando verso soluzioni di tipo cloud.
 
-Attenzione, non si vuole affermare che la capacità di un software sia una caratteristica irrilevante, ma semplicemente che sia un aspetto di prevalente interesse tecnico e forse trasparente per l’utente applicativo. In analogia a quanto detto nel precedente paragrafo, dal punto di vista strettamente tecnico ha forse più senso misurare la capacità come qualità interna, effettuando analisi statica del codice sorgente e verificando il rispetto di buone pratiche di programmazione.
+Attenzione, non si vuole affermare che la capacità di un software sia una caratteristica irrilevante, ma semplicemente che sia un aspetto di prevalente interesse tecnico e forse trasparente per l’utente applicativo. In analogia a quanto detto nel precedente paragrafo, dal punto di vista strettamente tecnico ha forse più senso misurare la capacità come qualità interna (la ISO 25023 indica le metriche PCa-1-G e PCa-2-G sia come qualità interna sia esterna), nonché effettuando analisi statica del codice sorgente e verificando il rispetto di buone pratiche di programmazione.
 
 4.4.1.4 Conclusioni su prestazione/efficienza
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
