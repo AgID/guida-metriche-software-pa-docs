@@ -134,7 +134,7 @@ In generale, occorre tenere presente che il tempo di risposta di un sistema info
 
 Analogamente, occorre tenere presente che il tempo di risposta/completamento dipende dalla tipologia di richiesta/transazione che viene elaborata. Gli indicatori proposti dalla ISO 25023 propongono infatti valori medi, calcolati effettuando *n* misure diverse, una per ciascuna delle *n* tipologie di richiesta/transazione rilevanti. Sono comunque ipotizzabili casi in cui interessa misurare separatamente i tempi di risposta/completamento per tipologie di richiesta/transazione differenti, e non mediare il risultato di tali misure.
 
-Si noti che in quasi tutte le definizioni di metriche, la ISO 25023 fa uso di valori medi. Dal punto di vista statistico e come indicato dalla ISO in alternativa alla metrica PTb-2-G, nella maggioranza dei contesti si ritiene più rappresentativo utilizzare un valore n-esimo percentile rispeto al tempo atteso da requisiti (ad esempio "PTb-2-G atteso a 5 secondi per il 95° percentile", ovvero si attende che il 95% delle risposte abbiano un tempo di risposta entro 5 secondi). Questa considerazione si applica anche ai paragrafi che seguono.
+Si noti che in quasi tutte le definizioni di metriche, la ISO 25023 fa uso di valori medi. Dal punto di vista statistico e come indicato dalla ISO in alternativa alla metrica PTb-2-G, nella maggioranza dei contesti si ritiene più rappresentativo utilizzare un valore n-esimo percentile rispetto al tempo atteso da requisiti (ad esempio "PTb-2-G atteso a 5 secondi per il 95° percentile", ovvero si attende che il 95% delle risposte abbiano un tempo di risposta entro 5 secondi). Questa considerazione si applica anche ai paragrafi che seguono.
 
 *Quando è opportuno utilizzare queste metriche?*
 
