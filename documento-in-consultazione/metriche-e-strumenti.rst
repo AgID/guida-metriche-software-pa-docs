@@ -430,29 +430,23 @@ Si sconsiglia pertanto l’uso di questa metrica, e si rimanda invece ai numeros
 4.4.2.6 Metriche per “accessibilità”
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Per l’ultima sottocaratteristica, la ISO 25023 propone 5 metriche, pensate per valutare il grado con cui l’applicazione in esame è adatta per l’uso di persone con disabilità o in generale con difficoltà d’interazione coi sistemi informatici.
+Per l’ultima sottocaratteristica, la ISO 25023 propone 2 metriche pensate per valutare il grado con cui l’applicazione in esame è adatta per l’uso di persone con disabilità o in generale con difficoltà d’interazione coi sistemi informatici.
 
 Tabella 20: metriche per accessibilità
 
 +---------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
 | **ID**  | **Nome**                                          | **Descrizione**                                                                                                                                                          | **Formula**                      |
 +=========+===================================================+==========================================================================================================================================================================+==================================+
-| UAc-1-G | Accessibilità per utenti con disabilità cognitiva | Quota percentuale dell’applicazione che può essere usata con successo da persone con abilità cognitive limitate. (con l’impiego di tecnologia assistiva, se applicabile) | n.d. (si rimanda alla norma ISO) |
+| UAc-1-G | Accessibilità per utenti con disabilità | Quota percentuale dell’applicazione che può essere usata con successo da persone con specifiche disabilità. (con l’impiego di tecnologia assistiva, se applicabile) | n.d. (si rimanda alla norma ISO) |
 +---------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-| UAc-2-G | Accessibilità per utenti con disabilità fisica    | Quota percentuale dell’applicazione che può essere usata con successo da persone con abilità fisiche limitate. (con l’impiego di tecnologia assistiva, se applicabile)   |                                  |
-+---------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-| UAc-3-G | Accessibilità per utenti con disabilità uditiva   | Quota percentuale dell’applicazione che può essere usata con successo da persone con abilità uditive limitate. (con l’impiego di tecnologia assistiva, se applicabile)   |                                  |
-+---------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-| UAc-4-G | Accessibilità per utenti con disabilità visiva    | Quota percentuale dell’applicazione che può essere usata con successo da persone con abilità visive limitate. (con l’impiego di tecnologia assistiva, se applicabile)    |                                  |
-+---------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-| UAc-5-S | Adeguatezza dei linguaggi supportati              | Percentuale dei linguaggi richiesti che è supportata.                                                                                                                    |                                  |
+| UAc-2-S | Adeguatezza dei linguaggi supportati              | Percentuale dei linguaggi richiesti che è supportata.                                                                                                                    |                                  |
 +---------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
 
 *Note*
 
 L’accezione “con disabilità” va inteso in senso lato, includendo per esempio anche gli utenti oltre una certa età. Bisogna inoltre considerare che in determinate circostanze qualunque utente potrebbe subire diminuzioni nelle capacità d’interazione (ad esempio a seguito di ferite agli occhi o alle mani, in condizioni di oscurità, forti rumori o fenomeni atmosferici intensi).
 
-L’ultima metrica è palesemente diversa dalle altre, in quanto si riferisce al multilinguismo. Desta perplessità che si misuri solo la percentuale di soddisfacimento dei requisiti, e non in assoluto quante lingue vanno supportate.
+L’ultima metrica si riferisce al multilinguismo. Desta perplessità che si misuri solo la percentuale di soddisfacimento dei requisiti, e non in assoluto quante lingue vanno supportate.
 
 *Quando è opportuno utilizzare queste metriche?*
 
