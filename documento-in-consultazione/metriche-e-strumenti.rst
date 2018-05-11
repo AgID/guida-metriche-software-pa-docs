@@ -831,7 +831,7 @@ La ISO 25010 individua, per la caratteristica di qualità “manutenibilità”,
 
 -  testabilità.
 
-Per ciascuna di queste sottocaratteristiche, la ISO 25023 propone alcune metriche, illustrate nei paragrafi che seguono. Per ogni metrica vengono fornite indicazioni e suggerimenti d’uso.
+Per ciascuna di queste sottocaratteristiche, la ISO 25023 propone alcune metriche, illustrate nei paragrafi che seguono. Per ogni metrica vengono forniti indicazioni e suggerimenti d’uso.
 
 4.4.5.1 Metriche per “modularità”
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -940,7 +940,7 @@ Per funzione di diagnosi si intendono funzioni che effettuano il cosiddetto “t
 
 *Quando è opportuno utilizzare queste metriche?*
 
-MAn-1-G (completezza dei log di sistema) è facilmente applicabile anche da non tecnici, anzi, la comprensione dei contenuti predisposti dal prodotto nei log da parte di non tecnici ai fini dell’analisi causale potrebbe costituire un’ulteriore elemento di qualità del prodotto stesso.
+MAn-1-G (completezza dei log di sistema) è facilmente applicabile anche da non tecnici, anzi, la comprensione dei contenuti predisposti dal prodotto nei log da parte di non tecnici ai fini dell’analisi causale potrebbe costituire un ulteriore elemento di qualità del prodotto stesso.
 
 MAn-2-S (efficacia delle funzioni di diagnosi) e la terza MAn-3-S (sufficienza delle funzioni di diagnosi) appaiono, come detto sopra, di più difficile applicazione, con un significato meno percepibile dai non addetti ai lavori e probabilmente poco adatte al contesto della P.A.
 
@@ -956,7 +956,7 @@ Tabella 33: metriche per modificabilità
 +=========+=============================+==========================================================================================+==================================+
 | MMd-1-G | Efficienza delle modifiche  | Quanto efficientemente possono essere apportate le modifiche rispetto al tempo previsto? | n.d. (si rimanda alla norma ISO) |
 +---------+-----------------------------+------------------------------------------------------------------------------------------+----------------------------------+
-| MMd-2-G | Correttezza delle modifiche | Quale proporzione delle modifiche è stato implementato correttamente?                    |                                  |
+| MMd-2-G | Correttezza delle modifiche | Quale proporzione delle modifiche è stata implementata correttamente?                    |                                  |
 +---------+-----------------------------+------------------------------------------------------------------------------------------+----------------------------------+
 | MMd-3-S | Capacità di modifica        | Quanto sono estese le modifiche richieste realizzate in uno specifico periodo di tempo?  |                                  |
 +---------+-----------------------------+------------------------------------------------------------------------------------------+----------------------------------+
@@ -1123,7 +1123,7 @@ La ISO 25010 individua, per la caratteristica di qualità “portabilità”, le
 
 -  sostituibilità.
 
-Per ciascuna di queste sottocaratteristiche, la ISO 25023 propone alcune metriche, illustrate nei paragrafi che seguono. Per ogni metrica vengono fornite indicazioni e suggerimenti d’uso.
+Per ciascuna di queste sottocaratteristiche, la ISO 25023 propone alcune metriche, illustrate nei paragrafi che seguono. Per ogni metrica vengono forniti indicazioni e suggerimenti d’uso.
 
 4.4.7.1 Metriche di adattabilità
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1218,7 +1218,7 @@ Di tutte le metriche proposte per la portabilità, le uniche che sembrano utili 
 4.4.8 Misurazioni di compatibilità
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Si ritiene infatti che, nell’ambito di questo studio e nel contesto della P.A. italiana, requisiti che riguardano questa caratteristica non necessitino di una metrica, ma possano essere espressi in “logica binaria” (si/no).
+Si ritiene infatti che, nell’ambito di questo studio e nel contesto della P.A. italiana, requisiti che riguardano questa caratteristica non necessitino di una metrica, ma possano essere espressi in “logica binaria” (sì/no).
 
 Ad esempio il cliente può richiedere compatibilità con determinati prodotti e piattaforme di base, ma non sembra utile misurare “quanto” un software è compatibile (se deve esserlo, la compatibilità va comunque garantita al 100%, situazioni intermedie non sembrano possibili).
 

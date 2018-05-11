@@ -777,7 +777,7 @@ Tabella 45: checklist per accessibilità
 |                 |                 | un’operazione   |                 |
 |                 |                 | fino ad un      |                 |
 |                 |                 | massimo di 10   |                 |
-|                 |                 | volte .         |                 |
+|                 |                 | volte.          |                 |
 +                 +-----------------+-----------------+-----------------+
 |                 | 6.2 – Pausa,    | Per animazioni, |                 |
 |                 | stop, nascondi  | immagini        |                 |
