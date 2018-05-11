@@ -175,17 +175,17 @@ Si osserva poi che tutti e quattro gli indicatori misurano non un consumo assolu
 
 Si segnala infine che la formula dell’indicatore PRu-4-S (qui non riportata, si rimanda alla norma ISO originaria) sembra incoerente con la definizione: sarebbe ragionevole infatti attendersi una formula simile alle precedenti, vale a dire mediata su un numero *n* di osservazioni.
 
-In generale, questi indicatori sembrano molto tecnici e ardui da misurare. L’impressione, comunque, è che aspetti del genere possano esulare dall’analisi di software applicativo, giacché la gestione delle risorse oggi si affronta a livello di *middleware* e di sistemi di virtualizzazione. In futuro, con l’affermarsi dell’approccio cloud, la misura del consumo di risorse della singola applicazione sarà ancora meno rilevante.
+In generale, sebbene questi indicatori possano sembrare molto tecnici e ardui da misurare, esistono strumenti di monitoraggio applicativo in grado di rilevare tali misure. L’impressione, comunque, è che aspetti del genere possano esulare dall’analisi di software applicativo, giacché la gestione delle risorse oggi si affronta a livello di *middleware* e di sistemi di virtualizzazione. In futuro, con l’affermarsi dell’approccio cloud, la misura del consumo di risorse della singola applicazione sarà rilevante nell'ottica di prevenire che un'applicazione poco performante possa consumare eccessive risorse cloud con conseguenti costi non previsti.
 
-Infine, è utile segnalare che esistono strumenti automatici che misurano il consumo di risorse di un’applicazione software. Il più noto è “Gestione attività” di Windows, ma un gran numero di sistemi di gestione sistemistica (es. SNMP, consolle di virtualizzazione server, enterprise manager, …) offrono funzionalità di questo genere.
+Infatti, è utile segnalare che esistono strumenti automatici che misurano il consumo di risorse di un’applicazione software. Il più noto è “Gestione attività” di Windows, ma un gran numero di sistemi di gestione sistemistica (es. SNMP, console di virtualizzazione server, enterprise manager, …) e gli stessi strumenti per la conduzione di test prestazionali offrono funzionalità di questo genere.
 
 *Quando è opportuno utilizzare queste metriche?*
 
 I quattro indicatori di tabella 13 possono essere utili per pianificare/verificare attività di tuning di sistemi e ottimizzazione di applicazioni, oppure in studi di capacity planning. Tuttavia, tranne casi particolari, si ritiene che la loro natura molto “tecnica” li renda poco adatti al contesto delle forniture di sviluppo software applicativo della pubblica amministrazione.
 
-In generale, si ritiene che misurare l’efficienza di una singola applicazione nell’utilizzo delle risorse a disposizione avesse senso quando i sistemi ICT erano “a silos” e prevedevano un hardware dedicato per ogni singola applicazione. Oggi, come già detto, queste problematiche si affrontano al livello di sistemi di virtualizzazione, e in futuro saranno del tutto superate (o meglio, rese trasparenti per l’utente finale) dal modello cloud.
+In generale, si ritiene che misurare l’efficienza di una singola applicazione basata solamente sull’utilizzo delle risorse a disposizione avesse senso quando i sistemi ICT erano “a silos” e prevedevano un hardware dedicato per ogni singola applicazione. Oggi c'è più senso ragionare sull'ottimizzazione delle applicazioni che, se di scarsa qualità, possono portare al consumo indiscriminato di risorse in cloud, che spesso prevedono il pagamento oltre una certa soglia di utilizzo. Queste problematiche si faranno sempre più presenti con il crescente utilizzo dei modelli cloud.
 
-Ciò non vuol dire che, in assoluto, questa sottocaratteristica non sia rilevante. Può ad esempio servire per identificare buone pratiche di programmazione (legate probabilmente anche al linguaggio, middleware e piattaforma utilizzati) e definire uno standard qualitativo di sviluppo in aziende produttrici di software. Ma in questi contesti, che sono fuori dal perimetro del presente studio, ha probabilmente più senso effettuare misure di qualità interna, usando non i 4 indicatori di tabella 13 ma verificando, tramite analisi statica del codice sorgente, il rispetto delle buone pratiche di efficienza definite.
+E' certamente utile identificare buone pratiche di programmazione (legate probabilmente anche al linguaggio, middleware e piattaforma utilizzati) e definire uno standard qualitativo di sviluppo in aziende produttrici di software. Nel contesto del presente studio ha ovviamente senso effettuare anche misure di qualità interna, usando strumenti di analisi statica del codice sorgente per valutare il rispetto delle buone pratiche di efficienza definite.
 
 4.4.1.3 Metriche per “capacità”
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -216,11 +216,8 @@ Problematiche del genere, però, difficilmente vengono gestite a livello applica
 
 *Quando è opportuno utilizzare queste metriche?*
 
-Per quanto detto, si ritiene che nel contesto di questo studio gli indicatori di capacità abbiano un’importanza residuale. Possono essere utili nei casi particolari in cui le problematiche di accesso concorrente (ove sussistano) debbano essere risolte a livello applicativo. In tali casi, si suggerisce di definire a livello di requisiti il valore atteso per gli indicatori PCa-2-G e PCa-3-S, specificando anche come dovranno essere effettuate le misure in fase di verifica (ad esempio utilizzando strumenti automatici che effettuano test di carico simulando pacchetti anche ingenti di utenti concorrenti).
+Per quanto detto, sebbene nel contesto di questo studio gli indicatori di capacità possano avere un’importanza residuale, risultano sicuramente utili nei casi in cui le problematiche di accesso concorrente debbano essere risolte a livello applicativo. In tali casi, si suggerisce di definire a livello di requisiti il valore atteso per gli indicatori PCa-2-G e PCa-3-S, specificando anche come dovranno essere effettuate le misure in fase di verifica (ad esempio utilizzando strumenti automatici che effettuano test di carico simulando pacchetti anche ingenti di utenti concorrenti).
 
-Si ritiene tuttavia che scenari di questo tipo, diffusi in passato, siano superati nelle architetture attuali, e di certo saranno resi ancora più obsoleti andando verso soluzioni di tipo cloud.
-
-Attenzione, non si vuole affermare che la capacità di un software sia una caratteristica irrilevante, ma semplicemente che sia un aspetto di prevalente interesse tecnico e forse trasparente per l’utente applicativo. In analogia a quanto detto nel precedente paragrafo, dal punto di vista strettamente tecnico ha forse più senso misurare la capacità come qualità interna, effettuando analisi statica del codice sorgente e verificando il rispetto di buone pratiche di programmazione.
 
 4.4.1.4 Conclusioni su prestazione/efficienza
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -233,13 +230,7 @@ Per riassumere quanto detto, tra gli indicatori presentati per la caratteristica
 
 -  PTb-5-G (in caso di elaborazioni massive e/o di tipo batch).
 
-Gli altri indicatori, come detto, sembrano meno adatti alle finalità di questo studio e in parte obsoleti, a causa:
-
--  dell’odierna grande disponibilità (e dunque minor costo) di hardware e connettività di rete;
-
--  dell’affermarsi dei sistemi di virtualizzazione e soluzioni cloud;
-
--  del modello architetturale verso cui devono tendere i sistemi informatici delle P.A., ove il livello applicativo è separato dagli aspetti infrastrutturali e di gestione delle risorse.
+Gli altri indicatori, come detto, sembrano meno adatti alle finalità di questo studio a causa dell’odierna grande disponibilità (e dunque minor costo) di hardware e connettività di rete, ma resteranno d’interesse per la valutazione dell’efficienza dell’applicazione sviluppata. 
 
 4.4.2 Misurazioni di usabilità
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
